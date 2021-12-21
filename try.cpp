@@ -1,8 +1,12 @@
 #include <iostream>
 int main()
 {
+    using std::cin;
+    using std::cout;
+    using std::endl;
     int n;
-    std::cout<<"Enter the  number: ";
-    std::cin>>n;
-    std::cout<<"Number is: "<<n;
+    cout<<"Enter the  number: ";
+    cin>>n;
+    cout<<"Number is: "<<n<<endl;
+    cout<<"Added new line"<<endl;
 }
